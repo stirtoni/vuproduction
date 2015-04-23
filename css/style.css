@@ -1,0 +1,240 @@
+html {
+  font-family: Didact Gothic;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+h1 {
+	padding: 0;
+	font-size: 3.5rem;
+}
+
+.section {
+	padding: 0;
+}
+
+.container-wide {
+	width: 90%;
+	margin: 0 auto;
+}
+
+ul.table-of-contents a{
+	color: white;
+}
+
+ul.table-of-contents a.active {
+	font-size: 2em;
+}
+
+nav {
+	background-color: transparent;
+	box-shadow: none;
+	text-align: center;
+	z-index: 2;
+}
+
+.is-hidden {
+  opacity: 0;
+  -webkit-transform: translate(0,-60px);
+  -webkit-transition: -webkit-transform .2s,background .3s,color .3s,opacity 0 .3s;
+}
+
+.is-visible {
+  opacity: 1;
+  -webkit-transform: translate(0,0);
+  -webkit-transition: -webkit-transform .2s,background .3s,color .3s;
+}
+
+nav ul {
+	height: 56px;
+	display: inline-block;
+	/*width: 500px;
+	margin: 0 auto;*/
+}
+
+nav ul a {
+	font-size: 1.5em;
+	padding: 0 25px;
+}
+
+#nav-wrapper {
+	background-color: transparent;
+	width: 100%;
+}
+
+.wrapper {
+	margin-top: -64px;
+}
+
+#header {
+	height: 100vh;
+	width: 100%;
+  background: url('../img/hq_header-04.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#header-content {
+	position: fixed;
+	top:45vh;
+	left: 50%;
+	z-index: 2;
+}
+
+#header-content-small {
+	padding-top: 180px;
+	height: 541px;
+	width: 100%;
+	background: url('../img/mobile_header.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#header-content-small h3{
+	/*padding-top: 250px;*/
+}
+
+.video {
+	/*margin-top: -10px;
+	margin-bottom: -10px;*/
+	position: relative;
+	min-height: 920px;
+	width: 100%;
+  background: url('../img/bus-02.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*border-bottom: 5px solid rgba(0, 0, 0, 0.1);*/
+}
+
+.video .container {
+	margin-top: -95px;
+}
+
+#video-content {
+	padding: 1.25px;
+	margin: 10px;
+	background: rgb(0, 0, 0); /* Fallback */
+	background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+#video-list li {
+	opacity: 0;
+}
+
+#video-list li p {
+	font-size: 1.25em;
+}
+
+.look {
+	margin-top: -15px;
+	height: 820px;
+	width: 100%;
+  background: url('../img/surf-02.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*border-top: 5px solid rgba(0, 0, 0, 0.1);*/
+}
+
+.look .container {
+	padding-top: 40px;
+}
+
+.about {
+	margin-top: -32px;
+	height: 640px;
+	background-color: #f1f1f1;
+	color: #3b83c4;
+	box-shadow:   outset  0  8px 8px -8px #696868,
+                outset  0 -8px 8px -8px #696868;
+}
+
+.about .container-wide {
+	padding-top: 40px;
+}
+
+.acting {
+	background-image: url('../icons/action.svg');
+}
+
+.camera {
+	background-image: url('../icons/camera.svg');
+}
+
+
+.sun {
+	background-image: url('../icons/lights.svg');
+}
+
+#about-column {
+	width: 25%;
+	margin: 0 4%;
+	text-align: center;
+	font-size: 1.25em;
+	background-size: 80px 80px;
+	background-position: center 45px;
+	background-repeat: no-repeat;
+	height: 380px;
+	background-color: white;
+	border: 2px solid #bbbdbf;
+	border-radius: 5px;
+	padding-top: 20px;
+	transition: box-shadow 1s;
+}
+
+#about-column-small {
+	color: black;
+	background-size: 80px 80px;
+	background-position: center 0;
+	background-repeat: no-repeat;
+	height: 150px;
+	padding-top: 80px;
+}
+
+#about-column:hover {
+	border-color: #3b83c4;
+	box-shadow: 0 0 3px #515151;
+}
+
+#about-column p {
+	margin-top: 150px;
+	color: black;
+}
+
+.contact {
+	height: 900px;
+	width: 100%;
+  background: url('../img/tree-02.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#form-main {
+	padding-top: 48px;
+}
+
+#youtube, #vu {
+	width: 60px;
+}
+
+#youtube {
+	margin: 8px;
+}
+
+#youtube:hover {
+	box-shadow: 0 0 3px #515151;
+}

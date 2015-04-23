@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="$1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>VU</title>
+        <link rel="shortcut icon" href="icons/vu.ico">
+        <link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="#video">Video For</a></li>
+            <li><a href="#look">Demo</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="navbar">
+            <nav>
+                <div class="nav-wrapper navigation-bar is-visible" data-nav-status="toggle"">
+                    <ul class="hide-on-small-only section table-of-contents">
+                        <li><a href="#video">Video For</a></li>
+                        <li><a href="#look">Demo</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <ul class="right hide-on-med-and-up">
+                      <!-- Dropdown Trigger -->
+                      <li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="mdi-action-list right"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="wrapper">
+            <div id="header" class="section scrollspy valign-wrapper hide-on-small-only">
+                <div class="center align" id="header-content">
+                    <h1>For the Adventurous</h1>
+                    <a class="waves-effect waves-light btn" href="#look">DEMO</a>
+                </div>
+            </div>
+            <div class="hide-on-med-and-up center-align valign" id="header-content-small">
+                <h2>VŪ</h2>
+                <h3>For the Adventurous</h3>
+                <a class="waves-effect waves-light btn" href="#look">DEMO</a>
+            </div>
+            <div class="video section scrollspy valign-wrapper" id="video">
+                <div class="container center align valign" id="parallax">
+                    <h1>Video For</h1>
+                    <ul id="video-list">
+                        <li class="col s12 center-align" id="video-content">
+                            <h4>Action</h4>
+                            <p>We film the adventurous. From novice to expert, we capture and edit any action event you have happening</p>
+                        </li>
+                        <li class="col s12 center-align" id="video-content">
+                            <h4>Coporate Events</h4>
+                            <p>Improving company culture and business through capturing experiences</p>
+                        </li>
+                        <li class="col s12 center-align" id="video-content">
+                            <h4>Family</h4>
+                            <p>Bring family closer together by making  memories last forever with film</p>
+                        </li>
+                        <li class="col s12 center-align" id="video-content">
+                            <h4>Viral Promotion</h4>
+                            <p>Help promote your product or business in the most exciting and adventurous way</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="look section scrollspy" id="look">
+                <div class="container center align">
+                    <div class="row">
+                        <div class="col s12">
+                            <h1>TAKE A LOOK</h1>
+                        </div>
+                        <div class="col s12" id="video-container">
+                            <iframe src="http://player.vimeo.com/video/122707716?byline=0&amp;portrait=0&amp;color=ffffff" width="100%" height="450" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about section scrollspy" id="about">
+                <div class="container-wide">
+                    <h1 class="center align">THIS IS US</h1>
+                    <div class="row hide-on-small-only fade-in">
+                        <div class="col s4 acting" id="about-column">
+                            <p>No acting, or directing. You live the moment, we just make reliving it awesome.</p>
+                        </div>
+                        <div class="col s4 camera" id="about-column">
+                            <p>We have experience in all types of active enviornments, so we can keep up with anyone.</p>
+                        </div>
+                        <div class="col s4 sun" id="about-column">
+                            <p>Styaing hidden is essential. We make sure to capture your activity from interesting angles without getting in the way.</p>
+                        </div>
+                    </div>
+                    <div class="row hide-on-med-and-up center-align">
+                        <div class="col s12 acting" id="about-column-small">
+                            <p>No acting, or directing. You live the moment, we just make reliving it awesome.</p>
+                        </div>
+                        <div class="col s12 camera" id="about-column-small">
+                            <p>We have experience in all types of active enviornments, so we can keep up with anyone.</p>
+                        </div>
+                        <div class="col s12 sun" id="about-column-small">
+                            <p>Staying hidden is essential. We make sure to capture your activity from interesting angles without getting in the way.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact section scrollspy" id="contact">
+            <div id="form-main">
+                <div id="form-div">
+                    <div class="row">
+                        <form class="col m6 s12 center align" action="mailto:dajwilliam@gmail.com" method="post" enctype="text/plain">
+                            <h1>Contact</h1>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <i class="mdi-action-account-circle prefix"></i>
+                                    <input id="icon_prefix" type="text" name="name" class="validate"><br>
+                                    <label for="icon_prefix">Name</label><br>
+                                </div>
+                                <div class="input-field col s12">
+                                    <i class="mdi-communication-email prefix"></i>
+                                    <input id="icon_email" type="text" name="mail" class="validate"><br>
+                                    <label for="icon_email">Email</label><br>
+                                </div><br>
+                            </div>
+                            <div class="input-field col s12">
+                                <i class="mdi-content-create prefix"></i>
+                                <textarea id="textarea1" name="comment" class="materialize-textarea"></textarea>
+                                <label for="textarea1">Message</label>
+                            </div>
+                            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                            <i class="mdi-content-send right"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col m6 s12 center-align">
+                    <a href=" https://www.youtube.com/channel/UCno5dAhwwMqtOn4fPVNJ9MA"><img id="youtube" src="icons/youtube-02.png" alt="youtube icon"></a>
+                    <img id="vu" src="icons/logo.png" alt="">
+                    <h6>&copy; 2015 VU PRODUCTIONS</h6>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/init.js"></script>
+    </body>
+</html>
