@@ -227,6 +227,10 @@ nav ul a {
 	padding-top: 48px;
 }
 
+.contact label {
+	color: white;
+}
+
 #youtube, #vu {
 	width: 60px;
 }
