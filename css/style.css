@@ -227,7 +227,11 @@ nav ul a {
 	padding-top: 48px;
 }
 
-.contact label {
+.contact .input-field label{
+	color: white;
+}
+
+#textarea label {
 	color: white;
 }
 
